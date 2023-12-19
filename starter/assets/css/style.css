@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/*header section has remained largely similar to its original formatting, with only slight adjustments to the hexadecimal color code */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,9 +48,7 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
+/* main image has been changed from "hero" to "figure" for SEO purposes"*/
 
 .figure {
     height: 800px;
@@ -59,21 +59,49 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
+/* class changed from content to "main"  */
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+.main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+p {
+    font-size: 16px;
+}
+
+/* changed class name to "section", all alt tags included, hexadecimal colors shortened from 6 to 3 letters 
+when needed, condensed header and img classes in this section*/
+
+.section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #fff;
+}
+
+.section_img1 {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+.section_img2 {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;    
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* changed class name to "aside", all alt tags included, hexadecimal colors shortened from 6 to 3 letters 
+when needed, condensed header and img classes in this section*/
 
 .aside {
     margin-right: 20px;
@@ -102,61 +130,7 @@ p {
     max-width: 150px;
 }
 
-
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #fff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #fff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #fff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* footer tag correctly has h4 heading size */
 
 .footer {
     padding: 30px;
@@ -165,6 +139,6 @@ p {
     text-align: center;
 }
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
